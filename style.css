@@ -759,11 +759,11 @@ body{
     }
         
     .contact a{
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: purple;
         text-decoration: none;
-        margin-right: 5px;
-        padding: 10px 15px;
+        margin-right: 3px;
+        padding: 5px 10px;
         border-radius: 50px;
         background-color: rgba(0, 0, 0, 0.1);
         display: inline-block;
@@ -780,11 +780,11 @@ body{
     }
     
     .contact .facebook{
-        padding: 10px 15px;
+        padding: 5px 10px;
     }
     
     .contact .twitter{
-        padding: 10px 15px;
+        padding: 5px 10px;
     }
     
     .aboutsome{
