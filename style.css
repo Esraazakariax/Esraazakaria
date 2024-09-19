@@ -140,7 +140,7 @@ body{
 }
 
 .aboutsome{
-    padding: 80px 50PX 200px 50px;
+    padding: 180px 50PX 200px 50px;
     justify-content: center;
     display: flex;
 }
@@ -181,13 +181,6 @@ body{
     box-shadow: 0 0 30px purple;
 }
 
-.me{
-    padding-left: 250px;
-    padding-top: 130px;
-    font-size: 1.8rem;
-    color: #c7c8c9;
-}
-
 .about span{
     transition: ease 0.6s;
     color: #a8a8a8;
@@ -198,6 +191,15 @@ body{
     color: purple;
 }
 
+
+.d3d img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    right: 1100px;
+    top: 700px;
+    z-index: -1;
+}
 
 
 
@@ -757,11 +759,11 @@ body{
     }
         
     .contact a{
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: purple;
         text-decoration: none;
-        margin-right: 3px;
-        padding: 5px 10px;
+        margin-right: 5px;
+        padding: 10px 15px;
         border-radius: 50px;
         background-color: rgba(0, 0, 0, 0.1);
         display: inline-block;
@@ -778,11 +780,11 @@ body{
     }
     
     .contact .facebook{
-        padding: 5px 10px;
+        padding: 10px 15px;
     }
     
     .contact .twitter{
-        padding: 5px 10px;
+        padding: 10px 15px;
     }
     
     .aboutsome{
@@ -814,7 +816,7 @@ body{
         border-radius: 50px;
         display: inline-block;
         color: #a8a8a8;
-        border: 1.5px solid purple;
+        border: 1.7px solid purple;
         background-color: rgba(0, 0, 0, 0.1);
         transition: ease 0.3s;
         cursor: pointer;
@@ -837,5 +839,13 @@ body{
         color: purple;
     }
     
+    
+    .d3d img{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        right: 600px;
+        top: 550px;
+        z-index: -1;
+    } 
 }
-
