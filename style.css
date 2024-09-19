@@ -785,7 +785,7 @@ body{
     }
     
     .aboutsome{
-        padding: 50px 50PX 200px 150px;
+        padding: 0px 50PX 200px 150px;
         justify-content: center;
         display: flex;
     }
