@@ -139,6 +139,12 @@ body{
     padding: 8px 13px;
 }
 
+.me{
+    color: #c7c8c9;
+    font-size: 1.8rem;
+    padding-left: 250px;
+    padding-top: 130px;
+
 .aboutsome{
     padding: 180px 50PX 200px 50px;
     justify-content: center;
