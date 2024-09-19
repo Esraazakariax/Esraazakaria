@@ -784,6 +784,13 @@ body{
     .contact .twitter{
         padding: 5px 10px;
     }
+
+    .me{
+        color: #c7c8c9;
+        font-size: 1.2rem;
+        padding-left: 150px;
+        padding-top: 90px;
+    }
     
     .aboutsome{
         padding: 70px 50PX 200px 150px;
