@@ -780,12 +780,12 @@ body{
         justify-content: center;
         color: #c7c8c9;
         font-size: 0.9rem;
-        padding-left: 30px;
+        padding-left: 0px;
         padding-top: 90px;
     }
     
     .aboutsome{
-        padding: 0px 50PX 200px 150px;
+        padding: 70px 50PX 200px 150px;
         justify-content: center;
         display: flex;
     }
