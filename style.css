@@ -780,8 +780,9 @@ body{
         justify-content: center;
         color: #c7c8c9;
         font-size: 0.9rem;
-        padding-left: 0px;
+        padding-left: 20px;
         padding-top: 90px;
+        padding-bottom: 40px;
     }
     
     .aboutsome{
