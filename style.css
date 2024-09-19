@@ -198,16 +198,6 @@ body{
 }
 
 
-.d3d img{
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    right: 1100px;
-    top: 700px;
-    z-index: -1;
-}
-
-
 
 
 @media (max-width: 1024px) {
@@ -409,15 +399,6 @@ body{
         color: purple;
     }
     
-    
-    .d3d img{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        right: 800px;
-        top: 590px;
-        z-index: -1;
-    }    
 }
 
 
@@ -630,15 +611,6 @@ body{
         color: purple;
     }
     
-    
-    .d3d img{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        right: 600px;
-        top: 550px;
-        z-index: -1;
-    }    
 }
 
 
@@ -801,7 +773,7 @@ body{
     }
     
     .aboutsome{
-        padding: 40px 50PX 200px 150px;
+        padding: 20px 50PX 200px 150px;
         justify-content: center;
         display: flex;
     }
@@ -853,12 +825,4 @@ body{
     }
     
     
-    .d3d img{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        right: 600px;
-        top: 550px;
-        z-index: -1;
-    } 
 }
