@@ -621,16 +621,6 @@ body{
         transform: scale3d(1.03);
         color: purple;
     }
-    
-    
-    .d3d img{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        right: 600px;
-        top: 550px;
-        z-index: -1;
-    }    
 }
 
 
@@ -844,14 +834,5 @@ body{
         color: purple;
     }
     
-    
-    .d3d img{
-        position: absolute;
-        height: 100px;
-        width: 100px;
-        right: 600px;
-        top: 550px;
-        z-index: -1;
-    }    
 }
 
