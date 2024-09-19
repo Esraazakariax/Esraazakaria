@@ -145,13 +145,6 @@ body{
     display: flex;
 }
 
-.me{
-    color: #c7c8c9;
-    font-size: 1.8rem;
-    padding-left: 250px;
-    padding-top: 130px;
-}
-
 .about p{
     margin: 0;
     color: #a8a8a8;
@@ -186,6 +179,13 @@ body{
     background-color: purple;
     color: #ffffffff;
     box-shadow: 0 0 30px purple;
+}
+
+.me{
+    padding-left: 250px;
+    padding-top: 130px;
+    font-size: 1.8rem;
+    color: #c7c8c9;
 }
 
 .about span{
@@ -621,6 +621,16 @@ body{
         transform: scale3d(1.03);
         color: purple;
     }
+    
+    
+    .d3d img{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        right: 600px;
+        top: 550px;
+        z-index: -1;
+    }    
 }
 
 
@@ -773,16 +783,6 @@ body{
     
     .contact .twitter{
         padding: 5px 10px;
-    }
-
-    .me{
-        display: flex;
-        justify-content: center;
-        color: #c7c8c9;
-        font-size: 0.9rem;
-        padding-left: 20px;
-        padding-top: 90px;
-        padding-bottom: 40px;
     }
     
     .aboutsome{
