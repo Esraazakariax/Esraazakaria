@@ -140,9 +140,16 @@ body{
 }
 
 .aboutsome{
-    padding: 180px 50PX 200px 50px;
+    padding: 80px 50PX 200px 50px;
     justify-content: center;
     display: flex;
+}
+
+.me{
+    color: #c7c8c9;
+    font-size: 1.8rem;
+    padding-left: 250px;
+    padding-top: 130px;
 }
 
 .about p{
@@ -191,15 +198,6 @@ body{
     color: purple;
 }
 
-
-.d3d img{
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    right: 1100px;
-    top: 700px;
-    z-index: -1;
-}
 
 
 
