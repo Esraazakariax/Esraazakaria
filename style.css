@@ -776,6 +776,8 @@ body{
     }
 
     .me{
+        display: flex;
+        justify-content: center;
         color: #c7c8c9;
         font-size: 0.9rem;
         padding-left: 30px;
