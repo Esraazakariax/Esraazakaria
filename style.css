@@ -139,12 +139,6 @@ body{
     padding: 8px 13px;
 }
 
-.me{
-    color: #c7c8c9;
-    font-size: 1.8rem;
-    padding-left: 250px;
-    padding-top: 130px;
-
 .aboutsome{
     padding: 180px 50PX 200px 50px;
     justify-content: center;
@@ -195,6 +189,16 @@ body{
 .about span:hover{
     transform: scale3d(1.03);
     color: purple;
+}
+
+
+.d3d img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    right: 1100px;
+    top: 700px;
+    z-index: -1;
 }
 
 
@@ -399,6 +403,15 @@ body{
         color: purple;
     }
     
+    
+    .d3d img{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        right: 800px;
+        top: 590px;
+        z-index: -1;
+    }    
 }
 
 
@@ -611,6 +624,15 @@ body{
         color: purple;
     }
     
+    
+    .d3d img{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        right: 600px;
+        top: 550px;
+        z-index: -1;
+    }    
 }
 
 
@@ -737,11 +759,11 @@ body{
     }
         
     .contact a{
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: purple;
         text-decoration: none;
-        margin-right: 3px;
-        padding: 5px 10px;
+        margin-right: 5px;
+        padding: 10px 15px;
         border-radius: 50px;
         background-color: rgba(0, 0, 0, 0.1);
         display: inline-block;
@@ -758,22 +780,15 @@ body{
     }
     
     .contact .facebook{
-        padding: 5px 10px;
+        padding: 10px 15px;
     }
     
     .contact .twitter{
-        padding: 5px 10px;
-    }
-
-    .me{
-        color: #c7c8c9;
-        font-size: 0.9rem;
-        padding-left: 30px;
-        padding-top: 90px;
+        padding: 10px 15px;
     }
     
     .aboutsome{
-        padding: 40px 50PX 200px 150px;
+        padding: 70px 50PX 200px 150px;
         justify-content: center;
         display: flex;
     }
@@ -801,7 +816,7 @@ body{
         border-radius: 50px;
         display: inline-block;
         color: #a8a8a8;
-        border: 1.5px solid purple;
+        border: 1.7px solid purple;
         background-color: rgba(0, 0, 0, 0.1);
         transition: ease 0.3s;
         cursor: pointer;
@@ -825,4 +840,12 @@ body{
     }
     
     
+    .d3d img{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        right: 600px;
+        top: 550px;
+        z-index: -1;
+    } 
 }
