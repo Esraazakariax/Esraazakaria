@@ -76,9 +76,10 @@ body{
     top: 180px;
     right: 180px;
     display: inline-block;
-    border: 2px solid black;
+    border: 1px solid black;
     transition: ease 0.3s;
     cursor: pointer;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
 .imgg img:hover{
@@ -968,11 +969,11 @@ hr{
         top: 140px;
         right: 30px;
         display: inline-block;
-        border: 2px solid black;
+        border: 1px solid black;
         transition: ease 0.3s;
         cursor: pointer;
         z-index: -1;
-        box-shadow: 0 0 40px #332933;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     }
     
     .imgg img:hover{
@@ -987,7 +988,7 @@ hr{
         margin: 0;
         font-size: 1.2rem;
         margin-left: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     
     .esraa h2{
