@@ -12,6 +12,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: "Oxygen", sans-serif;
+
 }
 
 
@@ -31,7 +33,9 @@ body{
     padding: 0;
     color: #ffffffff;
     font-size: 2.5rem;
-    font-weight: 200;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+
 }
 
 .navv a{
@@ -45,6 +49,8 @@ body{
     display: inline-block;
     border: 2px solid transparent;
     transition: border 0.4s ease;
+    font-family: "Oxygen", sans-serif;
+
 }
 
 .navv a:hover{
@@ -88,6 +94,9 @@ body{
     font-size: 3rem;
     margin-left: 90px;
     padding-bottom: 40px;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+
 }
 
 .esraa h2{
@@ -98,6 +107,14 @@ body{
     background-image: linear-gradient(90deg, purple, #ffffffff);
     background-clip: text;
     color: transparent;
+    font-weight: 400;
+    font-family: "Oxygen", sans-serif;
+
+}
+
+.frontend h2{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 600;
 }
 
 .esraa span{
@@ -146,11 +163,21 @@ body{
     padding-top: 130px;
 }
 
+.me span{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
+}
+
 .mee{
     color: #c7c8c9;
     font-size: 1.8rem;
     padding-left: 250px;
     padding-top: 80px;
+}
+
+.mee span{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 500;
 }
 
 .aboutsome{
@@ -168,6 +195,11 @@ body{
     width: 1030px;
 }
 
+.about span{
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+}
+
 
 .view{
     padding: 40px 0px 0px 140px;
@@ -176,7 +208,7 @@ body{
 .view a{
     padding: 15px 20px;
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 1px;
     text-decoration: none;
     border-radius: 50px;
@@ -186,6 +218,8 @@ body{
     background-color: rgba(0, 0, 0, 0.1);
     transition: ease 0.3s;
     cursor: pointer;
+    font-family: "Oxygen", sans-serif;
+
 }
 
 .view a:hover{
@@ -218,6 +252,7 @@ hr{
 
 .skills span{
     color: #ffffffff;
+    font-family: "Oxygen", sans-serif;
 }
 
   
@@ -258,7 +293,8 @@ hr{
   
   .card .front-content p {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: "Oxygen", sans-serif;
     opacity: 1;
     background: linear-gradient(-45deg, #ffffffff 0%, purple 100% );
     background-clip: text;
@@ -320,6 +356,11 @@ hr{
   .its span{
     display: flex;
     align-items: center;
+    font-family: "Oxygen", sans-serif;
+  }
+
+  .skill-box span{
+    font-family: "Oxygen", sans-serif;
   }
 
   .containerr{
@@ -1093,7 +1134,7 @@ hr{
 
     hr{
         display: flex;
-        width: 100%;
+        width: 175%;
     }
 
 
