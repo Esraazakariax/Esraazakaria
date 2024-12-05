@@ -914,7 +914,6 @@ hr{
     
     .navv{
         display: flex;
-        justify-content: space-between;
         align-items: center;
         padding: 30px 20px;
         background-color: rgba(0, 0, 0, 0.5);
@@ -924,7 +923,7 @@ hr{
     }
     
     .navv h1{
-        margin: 0;
+        margin-right: 25px;
         padding: 0;
         color: #ffffffff;
         font-size: 1.3rem;
@@ -934,7 +933,7 @@ hr{
     .navv a{
         margin: 0px 1px;
         color: #ffffffff;
-        padding: 8px 13px;
+        padding: 5px 10px;
         font-size: 0.8rem;
         border-radius: 50px;
         text-decoration: none;
