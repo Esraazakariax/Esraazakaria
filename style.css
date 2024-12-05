@@ -972,6 +972,7 @@ hr{
         transition: ease 0.3s;
         cursor: pointer;
         z-index: -1;
+        box-shadow: 0 0 40px #332933;
     }
     
     .imgg img:hover{
@@ -1124,7 +1125,7 @@ hr{
 
     .content p{
         width: 100%;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .card .front-content p {
