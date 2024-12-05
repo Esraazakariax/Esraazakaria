@@ -1071,7 +1071,7 @@ hr{
         border-radius: 50px;
         display: inline-block;
         color: #a8a8a8;
-        border: 1.5px solid purple;
+        border: 1.2px solid purple;
         background-color: rgba(0, 0, 0, 0.1);
         transition: ease 0.3s;
         cursor: pointer;
@@ -1139,6 +1139,7 @@ hr{
     }
 
 
+    
 
 
 
