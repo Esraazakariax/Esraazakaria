@@ -914,6 +914,7 @@ hr{
     
     .navv{
         display: flex;
+        justify-content: none;
         align-items: center;
         padding: 30px 20px;
         background-color: rgba(0, 0, 0, 0.5);
@@ -923,7 +924,7 @@ hr{
     }
     
     .navv h1{
-        margin-right: 15px;
+        margin-right: 35px;
         padding: 0;
         color: #ffffffff;
         font-size: 1.3rem;
@@ -949,7 +950,7 @@ hr{
     }
     
     .aboutme{
-        padding: 80px 0px 0px 10px;
+        padding: 150px 0px 0px 10px;
         display: flex;
         justify-content: space-between;
         color: #ffffffff;
@@ -964,7 +965,7 @@ hr{
         height: 110px;
         width: 110px;
         position: absolute;
-        top: 185px;
+        top: 140px;
         right: 30px;
         display: inline-block;
         border: 2px solid black;
@@ -1132,8 +1133,7 @@ hr{
 
 
     hr{
-        display: flex;
-        width: 175%;
+        display: none;
     }
 
 
